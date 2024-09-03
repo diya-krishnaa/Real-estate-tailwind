@@ -1,0 +1,56 @@
+#nav {
+    background-image: url('./images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.text{
+    margin: 3rem;
+}
+#h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(164, 156, 156);
+}
+.register{
+    margin-right: 50px;
+}
+.section2{
+    background-color: rgb(218, 229, 233);
+}
+#sectionHead{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+#subHead{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* For small screens */
+@media (max-width: 640px) {
+    #nav {
+        background-size: auto;
+        background-position: top;
+        margin-bottom: -500px;
+    }
+}
+
+/* For medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+    #nav {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* For large screens */
+@media (min-width: 1025px) {
+    #nav {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
